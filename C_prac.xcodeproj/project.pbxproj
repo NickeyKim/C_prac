@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8042A85B1C0986C8007DDABB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8042A85A1C0986C8007DDABB /* main.c */; };
+		8042A85B1C0986C8007DDABB /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 8042A85A1C0986C8007DDABB /* LinkedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8042A8571C0986C8007DDABB /* C_prac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_prac; sourceTree = BUILT_PRODUCTS_DIR; };
-		8042A85A1C0986C8007DDABB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8042A85A1C0986C8007DDABB /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		8042A8591C0986C8007DDABB /* C_prac */ = {
 			isa = PBXGroup;
 			children = (
-				8042A85A1C0986C8007DDABB /* main.c */,
+				8042A85A1C0986C8007DDABB /* LinkedList.c */,
 			);
 			path = C_prac;
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 				};
 			};
 			buildConfigurationList = 8042A8521C0986C8007DDABB /* Build configuration list for PBXProject "C_prac" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8042A85B1C0986C8007DDABB /* main.c in Sources */,
+				8042A85B1C0986C8007DDABB /* LinkedList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +237,7 @@
 				8042A8601C0986C8007DDABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
