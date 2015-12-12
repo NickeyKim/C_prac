@@ -257,6 +257,8 @@ int main(int argc, const char * argv[]) {
 //    traverse(&newstack);
     printf("%d was popped\n", popped);
     deleteStack(&newstack);
+    push(&newstack, 3);
+    push(&newstack, 4);
     // insert code here...
 
     return 0;
