@@ -13,7 +13,7 @@
 typedef struct LinkElement{
     struct LinkElement *next;
     int data;
-}LinkElement;  //  Singly Linked List
+}LinkElement;  // it's Singly Linked List
 
 //insert new element to the very first of linked list
 //the reason why uses double pointer is that if so, you don't have to return head by changing head pointer
